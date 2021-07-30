@@ -1,0 +1,161 @@
+body{
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 75px 0 0 0;
+
+}
+nav{
+    display: block;
+    background-color: rgb(196,226,255);
+    border-bottom: solid 1px rgba(41, 41, 41, 1);
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav-container{
+    display: flex;
+    height: 100%;
+    margin: 0 48px;
+    
+    justify-content: space-between;
+    
+    /* background-color: rgba(255, 0, 0, 0.418); */
+}
+.logo{
+    display: flex;
+    /* background-color: royalblue; */
+    width: 180px;
+    align-items: center;
+
+}
+    .box-1{
+        background-color: black;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        margin-right: 1px;
+    }
+    .box-2{
+        background-color: black;
+        width: 12px;
+        height: 24px;
+        border-radius: 50%;
+        margin-right: 1px;
+
+    }
+    .box-3{
+        background-color: black;
+        width: 6px;
+        height: 24px;
+        border-radius: 50%;
+    }
+    .logo a {
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: Noe Display Bold;
+        margin-left: 5px;
+    }
+    
+.link-panel{
+    /* background-color: rosybrown; */
+
+    display: flex;
+    align-items: center;
+
+    }
+    .link-panel a{
+        color: black;
+        text-decoration: none;
+        margin-right: 25px;
+    }
+    .login-button{
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 11px 18px 12px 20px;
+        border-radius: 19px;
+
+
+}
+
+header{
+    background-color: rgb(196,226,255);
+    border-bottom: solid 1px rgba(41, 41, 41, 1);
+    width: 100%;
+    min-height: 470px;
+    font-weight: 400;
+
+}
+    .header-container{
+        display: flex;
+        font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+        .header-contents{
+            display: block;
+            margin: auto;
+
+        }
+            .header-title{
+                display: block;
+            }
+                .header-title h1{
+                    /* GT SUPER FONT. FIND IT AND INJECT IT */
+                    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+                    font-size: 70px;
+                    line-height: 74px;
+                }
+            .header-text{
+                display: block;
+                margin-bottom: 25px;
+
+            }
+            .header-text p{
+                font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                color: rgb(41, 41, 41);
+                font-size: 24px;
+            }
+            .header-button-container{
+                display: block;
+            }
+                .header-button{
+                    display: flex;
+                    background-color: white;
+                    border: 1px solid rgba(41, 41, 41, 1);
+                    border-radius: 19px;
+                    width: 132px;
+                    height: 21px;
+                    padding: 12px 20px;
+                    justify-content: center;,
+                    cursor: pointer;
+
+                }
+                    .header-button:hover{
+                        cursor: pointer;
+                    }
+                    .header-button button{
+                        margin: auto;
+                        background: none;
+                        border: none;
+
+                        width: 132px;
+                        height: 21px;
+                        font-weight: 400;
+                        font-size: 16px;
+                    }
+        .header-free-space{
+            display: flex;
+            width: 60%;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+button:hover{
+    /* cursor: pointer; */
+}
+}
